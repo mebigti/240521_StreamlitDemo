@@ -17,7 +17,7 @@ A: 세상에 가치없는 사람은 없어요 모두 다 가치있고 소중해�
 st.title("고민 상담소")
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-st.image("Doctor.png", width=500)
+st.image("LE.png", width=500)
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
